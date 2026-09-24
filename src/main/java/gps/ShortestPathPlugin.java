@@ -605,7 +605,7 @@ public class ShortestPathPlugin extends Plugin
 		pendingTasks.add(new PendingTask(client.getTickCount() + 1, pathfinderConfig::refresh));
 	}
 
-		@Override
+	@Override
 	public String getName()
 	{
 		return "Shortest Path";
