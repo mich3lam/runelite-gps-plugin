@@ -610,7 +610,7 @@ public class ShortestPathPlugin extends Plugin
 	{
 		return "Shortest Path";
 	}
-	
+
 	@Subscribe
 	public void onPluginMessage(PluginMessage event)
 	{
